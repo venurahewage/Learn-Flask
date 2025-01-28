@@ -1,0 +1,50 @@
+<!DOCTYPE html>
+<html>
+<head>
+
+    <style>
+
+        body{
+            background-color: wheat;
+        }
+        input {
+            border-radius: .5rem;
+            height: 30px;
+            border: 0px;
+        }
+        button{
+            background-color: chocolate;
+            border-radius: .5rem;
+            height: 30px;
+            border: 0px;
+            cursor: pointer;
+            color: white;
+            box-shadow: inset;
+        }
+
+    </style>
+
+</head>
+
+<body>
+    <br><br>
+    <div>
+        <center>
+            <h1>Convert M to Cm & Mm</h1>
+
+        <form method="POST">
+            <input type="text" name="m" placeholder="Metres">
+            <br><br>
+            <button type="submit" name="submit" value="tocm">Convert to CM</button>&nbsp;<button type="submit" name="submit" value="tomm">Convert to MM</button>
+
+
+        </form>
+        <br>
+        <h2>{{ out }}</h2>
+
+        </center>
+    </div>
+
+</body>
+
+</html>
