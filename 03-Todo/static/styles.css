@@ -1,0 +1,55 @@
+body{
+    background-color: white;
+}
+
+table, th, td {
+    border: 1px solid black;
+    border-collapse: collapse;
+  }
+  th, td {
+    padding: 15px;
+  }
+
+.btn{
+    background-color: black;
+    color: white;
+    border:0px;
+    border-radius: .5rem;
+    padding: 8px;
+}
+
+.btn:hover{
+    background-color: aquamarine;
+}
+
+input{
+    border-radius: .5rem;
+    padding: 5px;
+}
+
+
+.editbtn{
+    background-color: rgb(252, 221, 82);
+    color: black;
+    border:0px;
+    border-radius: .5rem;
+    padding: 8px;
+    text-decoration: none;
+}
+.delbtn{
+    background-color: #fa9580;
+    color: black;
+    border:0px;
+    border-radius: .5rem;
+    padding: 8px;
+    text-decoration: none;
+}
+
+.checkbtn{
+    background-color: rgb(195, 255, 106);
+    color: black;
+    border:0px;
+    border-radius: .5rem;
+    padding: 8px;
+    text-decoration: none;
+}
